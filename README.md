@@ -39,7 +39,7 @@ Torque = Force \times Distance
 ### ✅ Joint 3 (~3.92 kg·cm):
 - **MG996R**
   - Torque: ~11 kg·cm @ 6V (sufficient for small loads)
-  - [Amazon MG996R](https://www.amazon.com/MG996R-Digital-Torque-Metal-Gear/dp/B00KKTR0TY)
+  - [Noon MG996R](https://www.noon.com/saudi-en/tower-pro-metal-gear-servo-motor-black/N35085024A/p/?o=a29d8e4c739a453a&gQT=2&shareId=0a91ca1e-b94e-412b-b69b-1da09391f924)
 
 ---
 
@@ -70,9 +70,9 @@ Torque = Force \times Distance
   [Amazon LX-224HV](https://www.amazon.com/LewanSoul-Connectors-Equipped-Position-Temperature/dp/B081CTX6DM)
 
 - **MG996R (11 kg·cm):**  
-  [Amazon MG996R](https://www.amazon.com/MG996R-Digital-Torque-Metal-Gear/dp/B00KKTR0TY)
+  [Noon MG996R](https://www.noon.com/saudi-en/tower-pro-metal-gear-servo-motor-black/N35085024A/p/?o=a29d8e4c739a453a&gQT=2&shareId=0a91ca1e-b94e-412b-b69b-1da09391f924)
 
 ---
 
-## 5. Suggested Project Structure on GitHub
+
 
