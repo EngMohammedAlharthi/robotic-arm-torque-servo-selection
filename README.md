@@ -9,7 +9,7 @@ Given:
   - Link 2: 10 cm = 0.10 m
   - Gripper: 4 cm = 0.04 m
 
-### Torque formula:
+### Formula:
 \[
 Torque = Force \times Distance
 \]
@@ -24,52 +24,53 @@ Torque = Force \times Distance
 
 ## 2. Recommended Servo Motors
 
-### ✅ For Joint 1 (~28.4 kg·cm):
+### ✅ Joint 1 (~28.4 kg·cm):
 - **LewanSoul LX-224HV**
   - Torque: 20 kg·cm @ 11.1V (serial bus servo with feedback)
-  - Might need a gearbox or higher torque version (e.g., LX-45 or DS3225 for safety)
-  - [Amazon Link](https://www.amazon.com/LewanSoul-Connectors-Equipped-Position-Temperature/dp/B081CTX6DM)
-  - [Hiwonder Link](https://www.hiwonder.com/products/lx-224hv)
+  - May require a gearbox or higher torque variant for safety
+  - [Amazon LX-224HV](https://www.amazon.com/LewanSoul-Connectors-Equipped-Position-Temperature/dp/B081CTX6DM)
 
-### ✅ For Joint 2 (~13.7 kg·cm):
+### ✅ Joint 2 (~13.7 kg·cm):
 - **DS3218 Digital Servo**
   - Torque: 21.5 kg·cm @ 6.8V
-  - Waterproof, metal gear, suitable for heavy-duty robotic arms
-  - [Amazon Link](https://www.amazon.com/DS3218-Torque-Digital-Waterproof-Rotation/dp/B07FMBBPD2)
+  - Waterproof, metal gear, suitable for robotic arms
+  - [Amazon DS3218](https://www.amazon.com/DS3218-Torque-Digital-Waterproof-Rotation/dp/B07FMBBPD2)
 
-### ✅ For Joint 3 (~3.92 kg·cm):
-- **MG996R or DS3218**
-  - MG996R: ~11 kg·cm @ 6V (sufficient)
-  - [Amazon Link](https://www.amazon.com/MG996R-Digital-Torque-Metal-Helicopter/dp/B07NQWWZ6Y)
+### ✅ Joint 3 (~3.92 kg·cm):
+- **MG996R**
+  - Torque: ~11 kg·cm @ 6V (sufficient for small loads)
+  - [Amazon MG996R](https://www.amazon.com/MG996R-Digital-Torque-Metal-Gear/dp/B00KKTR0TY)
 
 ---
 
 ## 3. If Payload = 2 kg
-- All torque values double:
+- Torque values double:
   - Joint 1: ~56.8 kg·cm
   - Joint 2: ~27.4 kg·cm
   - Joint 3: ~7.84 kg·cm
 
 ### Downsides:
 - Higher power consumption
-- Slower motion due to gear reduction
-- Increased stress on joints and frame
+- Slower movement due to gear reduction
+- More stress on joints and frame
 
 ### Solutions:
 - Add a gearbox for torque amplification
 - Use high-torque servos (e.g., LX-45HV or DS3225)
-- Consider stepper motors with external drivers for very high torque
+- Consider stepper motors with external drivers for extreme torque needs
 
 ---
 
 ## 4. Purchase Links (Verified)
-- **DS3218 (20–21.5 kg·cm):**
-  - [Amazon DS3218](https://www.amazon.com/DS3218-Torque-Digital-Waterproof-Rotation/dp/B07FMBBPD2)
-- **LewanSoul LX-224HV (20 kg·cm):**
-  - [Amazon LX-224HV](https://www.amazon.com/LewanSoul-Connectors-Equipped-Position-Temperature/dp/B081CTX6DM)
-  - [Hiwonder LX-224HV](https://www.hiwonder.com/products/lx-224hv)
-- **MG996R (11 kg·cm):**
-  - [Amazon MG996R](https://www.amazon.com/MG996R-Digital-Torque-Metal-Helicopter/dp/B07NQWWZ6Y)
+
+- **DS3218 (20–21.5 kg·cm):**  
+  [Amazon DS3218](https://www.amazon.com/DS3218-Torque-Digital-Waterproof-Rotation/dp/B07FMBBPD2)
+
+- **LewanSoul LX-224HV (20 kg·cm):**  
+  [Amazon LX-224HV](https://www.amazon.com/LewanSoul-Connectors-Equipped-Position-Temperature/dp/B081CTX6DM)
+
+- **MG996R (11 kg·cm):**  
+  [Amazon MG996R](https://www.amazon.com/MG996R-Digital-Torque-Metal-Gear/dp/B00KKTR0TY)
 
 ---
 
