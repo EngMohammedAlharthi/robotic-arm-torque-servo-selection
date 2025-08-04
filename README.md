@@ -1,6 +1,8 @@
 # Robotic Arm Torque Calculation & Servo Selection
 
-## 1. Torque Calculation for Each Joint
+---
+
+## 1. Torque Calculation for Each Joint (Q1)
 
 Given:
 - Payload: **1 kg** → Force = 1 × 9.81 = **9.81 N**
@@ -27,7 +29,7 @@ Torque = Force \times Distance
 ### ✅ Joint 1 (~28.4 kg·cm):
 - **LewanSoul LX-224HV**
   - Torque: 20 kg·cm @ 11.1V (serial bus servo with feedback)
-  - May require a gearbox or higher torque variant for safety
+  - May require a gearbox or a higher torque variant for safety
   - [Amazon LX-224HV](https://www.amazon.com/LewanSoul-Connectors-Equipped-Position-Temperature/dp/B081CTX6DM)
 
 ### ✅ Joint 2 (~13.7 kg·cm):
@@ -43,21 +45,24 @@ Torque = Force \times Distance
 
 ---
 
-## 3. If Payload = 2 kg
-- Torque values double:
+## 3. Can the same servos lift 2 kg instead of 1 kg? (Q2)
+
+If the payload doubles to **2 kg**:
+- All torque values will **double**:
   - Joint 1: ~56.8 kg·cm
   - Joint 2: ~27.4 kg·cm
   - Joint 3: ~7.84 kg·cm
 
-### Downsides:
-- Higher power consumption
-- Slower movement due to gear reduction
-- More stress on joints and frame
+### Downsides of using the same servos:
+- **Overload** → Motors may overheat or fail
+- **Slow movement** → Because of added gears or higher torque demand
+- **Higher power consumption**
+- **Reduced lifespan of motors and mechanical parts**
 
 ### Solutions:
-- Add a gearbox for torque amplification
-- Use high-torque servos (e.g., LX-45HV or DS3225)
-- Consider stepper motors with external drivers for extreme torque needs
+- **Add gear reduction** to amplify torque (at the cost of speed)
+- **Use stronger servos** (e.g., LX-45HV or DS3225 rated at 35–45 kg·cm)
+- **Switch to stepper motors with drivers** for high-torque applications
 
 ---
 
